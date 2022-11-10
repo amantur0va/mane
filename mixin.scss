@@ -1,0 +1,85 @@
+@mixin df {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+@mixin da {
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+}
+
+@mixin de {
+  align-items: center;
+  justify-content: space-evenly;
+  display: flex;
+}
+
+@mixin wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@mixin btn {
+  padding: 10px 25px;
+  background: #1A5CFF;
+  box-shadow: 0 8px 20px rgba(26, 92, 255, 0.2);
+  border-radius: 15px;
+  font-weight: 900;
+  font-size: 14px;
+  color: #FFFFFF;
+  transition: .4s;
+  &:hover {
+    background: transparent;
+    transform: scale(1.1);
+    color: blue;
+
+  }
+}
+
+@mixin btn2 {
+  padding: 10px 178px;
+  background: #1A5CFF;
+  box-shadow: 0 8px 20px rgba(26, 92, 255, 0.2);
+  font-weight: 900;
+  font-size: 18px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  border-radius: 15px;
+  margin-left: 25px;
+  transition: .4s;
+  &:hover {
+    transform: scale(1.1);
+    background: transparent;
+    color: #1E2024;
+  }
+
+}
+@mixin df1{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+@mixin btn3 {
+  padding: 10px 20px;
+  background: #9099A3;
+  border-radius: 8px;
+  font-weight: 400;
+  font-size: 12px;
+  color: #FFFFFF;
+  transition: .4s;
+  border: none;
+  &:hover {
+    color: blue;
+    transform: scale(1.1);
+    background: transparent;
+  }
+}
+@mixin btn4{
+
+}
+
